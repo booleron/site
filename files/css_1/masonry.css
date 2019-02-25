@@ -1,0 +1,58 @@
+
+a {
+  color: #5b7d83;
+}
+
+/* The title */
+.title {
+  font-weight: 900;
+  font-size: 24px;
+  color: #ffffff;
+
+}
+
+
+/* Text-centering */
+.title,
+.intro 
+{
+  text-align: right;
+ 
+}
+
+
+.intro a {
+  opacity: .7;
+}
+
+.intro a:hover {
+  opacity: 1;
+}
+
+
+.masonry {
+  transition: all .5s ease-in-out;
+  column-gap: 50px;
+  column-fill: initial;
+}
+
+.masonry .brick {
+  margin-bottom: 90px;
+  display: inline-block; /* Fix the misalignment of items */
+}
+
+
+.masonry .brick img {
+  transition: all .5s ease-in-out;
+  backface-visibility: hidden; 
+}
+
+
+
+
+@media only screen and (min-width: 100px) and (max-width: 100px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
